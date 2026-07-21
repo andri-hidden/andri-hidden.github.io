@@ -16,9 +16,8 @@
 <meta property="og:url" content="https://www.hiddengyms.de/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://static.wixstatic.com">
-<link rel="preload" as="image" fetchpriority="high" media="(max-width:760px)" href="https://static.wixstatic.com/media/11062b_c690e9d8de8249998be9e10133ba8694~mv2.jpg/v1/fill/w_900,h_506,al_c,q_78/hero.jpg">
-<link rel="preload" as="image" fetchpriority="high" media="(min-width:761px)" href="https://static.wixstatic.com/media/11062b_c690e9d8de8249998be9e10133ba8694~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_85/hero.jpg">
+<link rel="preload" as="image" fetchpriority="high" media="(max-width:760px)" href="./assets/img/hero-900.jpg">
+<link rel="preload" as="image" fetchpriority="high" media="(min-width:761px)" href="./assets/img/hero-1920.jpg">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -93,8 +92,8 @@ footer .btn-app{background:var(--navy);color:#fff;border:2px solid rgba(255,255,
 .btn-navy-ghost{border:2px solid var(--navy);color:var(--navy);background:transparent}
 
 /* ---------- Hero ---------- */
-.hero{background:linear-gradient(105deg,rgba(15,184,212,.72) 0%,rgba(105,204,160,.66) 52%,rgba(246,220,92,.7) 100%),url('https://static.wixstatic.com/media/11062b_c690e9d8de8249998be9e10133ba8694~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_85/hero.jpg') center/cover no-repeat;color:#fff;padding:7.5rem 1.4rem 8.5rem;position:relative;overflow:hidden}
-@media(max-width:760px){.hero{background:linear-gradient(105deg,rgba(15,184,212,.72) 0%,rgba(105,204,160,.66) 52%,rgba(246,220,92,.7) 100%),url('https://static.wixstatic.com/media/11062b_c690e9d8de8249998be9e10133ba8694~mv2.jpg/v1/fill/w_900,h_506,al_c,q_78/hero.jpg') center/cover no-repeat}}
+.hero{background:linear-gradient(105deg,rgba(15,184,212,.72) 0%,rgba(105,204,160,.66) 52%,rgba(246,220,92,.7) 100%),url('./assets/img/hero-1920.jpg') center/cover no-repeat;color:#fff;padding:7.5rem 1.4rem 8.5rem;position:relative;overflow:hidden}
+@media(max-width:760px){.hero{background:linear-gradient(105deg,rgba(15,184,212,.72) 0%,rgba(105,204,160,.66) 52%,rgba(246,220,92,.7) 100%),url('./assets/img/hero-900.jpg') center/cover no-repeat}}
 .hero-inner{max-width:1180px;margin:0 auto;position:relative;z-index:2}
 .hero-badge{position:absolute;top:.2rem;right:0;background:#fff;border-radius:12px;padding:1.05rem 1.3rem .95rem;box-shadow:0 14px 36px rgba(31,58,92,.28);transform:rotate(3deg)}
 .hero-badge img{height:74px;width:auto;display:block}
@@ -308,11 +307,9 @@ footer a:hover{color:var(--mint)}
 }
 </style>
 </head>
-</head>
 <body>
 
 <!-- ======================= NAVIGATION ======================= -->
-<header>
 <header>
   <nav class="nav">
     <a class="logo" href="/"><img src="./assets/img/a13745295d44d021.png" alt="Hidden."></a>
@@ -334,7 +331,6 @@ footer a:hover{color:var(--mint)}
       <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" onclick="toggleMenu()"><span></span><span></span><span></span></button>
     </div>
   </nav>
-</header>
 </header>
 
 <main id="page-home" class="page active">
@@ -603,15 +599,15 @@ footer a:hover{color:var(--mint)}
 
       <h4 style="margin-top:4.6rem;font-size:1.05rem;letter-spacing:.18em;text-transform:uppercase;color:var(--yellow)"><span class="de">Eigentümer, die uns vertrauen</span><span class="en">Owners who trust us</span></h4>
       <div class="logo-strip">
-        <img src="https://static.wixstatic.com/media/2c8a19_41ca91b79f954a7ebe5efdab78a9d11d~mv2.jpg/v1/fill/w_227,h_71,al_c,q_80/rgb_Nuveen_RealEstate_logo.jpg" alt="Nuveen Real Estate">
-        <img src="https://static.wixstatic.com/media/2c8a19_ea5256947f24431b9541b1764b67dfcc~mv2.jpg/v1/fill/w_326,h_71,al_c,q_80/AT_Logo_4c.jpg" alt="Aroundtown">
-        <img src="https://static.wixstatic.com/media/2c8a19_bd2fd6686d62419a8a54b3e103ad7a4d~mv2.png/v1/crop/x_158,y_53,w_911,h_315/fill/w_208,h_72,al_c,q_85/DZ%20HYP%20Logo.png" alt="DZ HYP">
-        <img src="https://static.wixstatic.com/media/2c8a19_e23d40d5cd474a388b76255e1447af7b~mv2.png/v1/fill/w_187,h_41,al_c,q_85/bnp%20paribas%20real%20estate.png" alt="BNP Paribas Real Estate">
-        <img src="https://static.wixstatic.com/media/2c8a19_292ead8aa1d84d7d931dfed09405610a~mv2.png/v1/crop/x_0,y_24,w_334,h_110/fill/w_212,h_70,al_c,q_85/hines%20logo.png" alt="Hines">
-        <img src="https://static.wixstatic.com/media/2c8a19_0e3322360bf444eab43ee2dd695d49f2~mv2.jpg/v1/crop/x_0,y_39,w_200,h_122/fill/w_160,h_98,al_c,q_80/gold-tree-group_logo.jpg" alt="Gold Tree Group">
-        <img src="https://static.wixstatic.com/media/2c8a19_340432ba63b6479fba8b466100fe477a~mv2.png/v1/fill/w_195,h_41,al_c,q_85/quantum.png" alt="Quantum">
-        <img src="https://static.wixstatic.com/media/2c8a19_eadd17ee18c54c3594f1da119e5473dc~mv2.webp/v1/fill/w_139,h_70,al_c,q_80/NAS%20logo.webp" alt="NAS Real Investments">
-        <img src="https://static.wixstatic.com/media/2c8a19_a46f06a12792433f8961dbb107f7a6e4~mv2.png/v1/fill/w_155,h_48,al_c,q_85/iwerkx_heidelberg.png" alt="iWerkX Heidelberg">
+        <img src="./assets/img/nuveen-logo.png" alt="Nuveen Real Estate">
+        <img src="./assets/img/aroundtown-logo.png" alt="Aroundtown">
+        <img src="./assets/img/dzhyp-owner-logo.png" alt="DZ HYP">
+        <img src="./assets/img/bnp-paribas-logo.png" alt="BNP Paribas Real Estate">
+        <img src="./assets/img/hines-logo.png" alt="Hines">
+        <img src="./assets/img/gold-tree-group-logo.png" alt="Gold Tree Group">
+        <img src="./assets/img/quantum-logo.png" alt="Quantum">
+        <img src="./assets/img/nas-logo.png" alt="NAS Real Investments">
+        <img src="./assets/img/iwerkx-heidelberg-logo.png" alt="iWerkX Heidelberg">
       </div>
       <div class="cta-band">
         <h3><span class="de">Lassen Sie uns über Ihre Immobilie sprechen.</span><span class="en">Let's talk about your property.</span></h3>
