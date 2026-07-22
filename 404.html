@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de" class="de">
+<head>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="69304d8b-0b17-4872-a886-69f1841a8901" data-blockingmode="auto" type="text/javascript"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<title>Seite nicht gefunden | Hidden</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--cyan:#10BCD6;--yellow:#F7DE5A;--navy:#1F3A5C;--grad:linear-gradient(105deg,#0FB8D4,#69CCA0 52%,#F6DC5C)}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Poppins',sans-serif;color:var(--navy);background:#F5F8F9;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
+.box{max-width:480px}
+h1{font-family:'Baloo 2',cursive;font-weight:800;font-size:2.2rem;margin-bottom:.8rem}
+p{font-weight:300;line-height:1.6}
+a.btn{display:inline-block;margin-top:1.6rem;background:var(--navy);color:#fff;text-decoration:none;font-weight:600;padding:.85rem 1.6rem;border-radius:5px}
+</style>
+</head>
+<body>
+<div class="box" id="fallback">
+  <h1>Seite nicht gefunden</h1>
+  <p>Die aufgerufene Seite existiert nicht (mehr) oder wurde verschoben.</p>
+  <a class="btn" href="/">Zur Startseite</a>
+</div>
+<script>
+// Bekannte, umbenannte Artikel-URLs: alte (von Google indexierte) Adresse -> neue, stabile Adresse
+var redirects = {
+  '/post/firmenfitness-welche-option-ist-die-beste-für-mein-unternehmen/': '/post/firmenfitness/',
+  '/post/büroimmobilien-wie-eigentümer-leerstand-reduzieren-und-mietflächen-wieder-attraktiv-machen/': '/post/bueroimmobilien-leerstand/',
+  '/post/nachhaltige-büroimmobilien-mehrwert-durch-gesundheitsfördernde-angebote/': '/post/nachhaltige-bueroimmobilien/',
+  '/post/das-office-gym-für-mitarbeiter-so-einfach-geht-s/': '/post/office-gym/'
+};
+var path = decodeURIComponent(location.pathname).normalize('NFC');
+for (var key in redirects) {
+  if (key.normalize('NFC') === path) {
+    location.replace(redirects[key] + location.hash);
+    break;
+  }
+}
+</script>
+</body>
+</html>
