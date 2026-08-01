@@ -307,10 +307,14 @@ footer a:hover{color:var(--mint)}
 .sem-steps{margin-top:2.6rem;display:grid;gap:1.2rem}
 .sem-group-label{font-size:1.1rem;font-weight:800;font-family:'Baloo 2',cursive;letter-spacing:.04em;text-transform:uppercase;color:var(--navy);margin:2.4rem 0 1.1rem}
 .sem-group-label:first-child{margin-top:0}
-.sem-step{display:flex;gap:1.1rem;align-items:flex-start;background:#fff;border-radius:5px;box-shadow:var(--shadow);padding:1.3rem 1.5rem}
+.sem-step{display:flex;gap:1.1rem;align-items:center;background:#fff;border-radius:5px;box-shadow:var(--shadow);padding:1.3rem 1.5rem}
 .sem-step .num{flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:var(--grad);color:var(--navy);font-family:'Baloo 2',cursive;font-weight:800;font-size:1.25rem;display:grid;place-items:center}
 .sem-step p{font-weight:300;margin:0}
 .sem-step strong{font-weight:700}
+.hero-section-relative .wrap{position:relative}
+.seminaris-logo-badge{position:absolute;top:1.4rem;right:1.6rem;background:rgb(26,154,93);padding:.6rem 1.3rem;border-radius:5px;box-shadow:0 14px 36px rgba(31,58,92,.28);transform:rotate(2deg)}
+.seminaris-logo-badge img{height:32px;width:auto;display:block}
+@media(max-width:760px){.seminaris-logo-badge{position:static;display:block;width:fit-content;margin:0 0 1.6rem auto;transform:rotate(-1deg)}}
 </style>
 </head>
 <body>
@@ -340,11 +344,11 @@ footer a:hover{color:var(--mint)}
 </header>
 
 <main id="page-seminaris" class="page active">
-  <section class="mission" style="background:var(--soft)">
+  <section class="mission hero-section-relative" style="background:var(--soft)">
     <div class="wrap">
-      <div style="background:var(--navy);display:inline-block;padding:1rem 1.6rem;border-radius:5px;margin-bottom:1.6rem"><img src="../assets/img/seminaris-logo.png" alt="Seminaris" style="height:32px;width:auto;display:block"></div>
+      <div class="seminaris-logo-badge"><img src="../assets/img/seminaris-logo-tight.png" alt="Seminaris"></div>
       <div class="eyebrow"><span class="de">Seminaris x Hidden</span><span class="en">Seminaris x Hidden</span></div>
-      <h2 class="sec-title" style="max-width:26ch"><span class="de">TRAINIERE UND ENTSPANNE IN AUSGEWÄHLTEN SEMINARIS<br>HOTELS</span><span class="en">TRAIN AND UNWIND AT SELECTED SEMINARIS<br>HOTELS</span></h2>
+      <h2 class="sec-title" style="max-width:44ch"><span class="de">TRAINIERE UND ENTSPANNE IN<br>AUSGEWÄHLTEN SEMINARIS HOTELS</span><span class="en">TRAIN AND UNWIND AT<br>SELECTED SEMINARIS HOTELS</span></h2>
       <p class="lead" style="margin-top:1.2rem;max-width:none"><span class="de">Hidden bringt Wohlbefinden dorthin, wo du bist: flexibel, einfach und motivierend – ganz ohne Hürden.</span><span class="en">Hidden brings wellbeing to wherever you are: flexible, simple and motivating – with no barriers in the way.</span></p>
       <p class="lead" style="margin-top:.8rem;max-width:none"><span class="de">Gemeinsam mit Seminaris machen wir Gym, Sauna und Pool in den Hotels für alle buchbar – ganz einfach mit deiner Wellpass- oder Hansefit-Mitgliedschaft, ohne Zusatzkosten.</span><span class="en">Together with Seminaris, we make the gym, sauna and pool in these hotels bookable for everyone – simply with your Wellpass or Hansefit membership, at no extra cost.</span></p>
 
@@ -355,7 +359,7 @@ footer a:hover{color:var(--mint)}
           <p style="text-align:center;color:rgba(255,255,255,.92)"><span class="de">Mit deiner Wellpass- oder Hansefit-Mitgliedschaft trainierst du in der Regel ohne Aufpreis.</span><span class="en">With your Wellpass or Hansefit membership, you can usually train at no extra cost.</span></p>
         </div>
         <div class="uc-card" style="background:#2E8174">
-          <svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16"/><path d="M7.5 19c-1.2-3-.8-3.8.5-6s1.7-3 .5-6"/><path d="M12 19c-1.2-3-.8-3.8.5-6s1.7-3 .5-6"/><path d="M16.5 19c-1.2-3-.8-3.8.5-6s1.7-3 .5-6"/></svg>
+          <svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19v-8.5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2V19"/><path d="M3 16h18"/><path d="M6 8.5V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2.5"/><path d="M7.5 12.5h4"/></svg>
           <h3 style="justify-content:center;color:#fff;font-size:1.5rem"><span class="de">Hochwertige Hotel-Angebote</span><span class="en">Premium Hotel Amenities</span></h3>
           <p style="text-align:center;color:rgba(255,255,255,.92)"><span class="de">Zugang zu Gym, Sauna und Pool der Seminaris Hotels – Angebote, die du sonst nicht buchen könntest.</span><span class="en">Access to the gym, sauna and pool at Seminaris hotels – amenities you couldn't otherwise book.</span></p>
         </div>
@@ -389,8 +393,8 @@ footer a:hover{color:var(--mint)}
       <h3 class="loc-h" id="anleitung" style="margin-top:4.2rem;scroll-margin-top:6rem"><span class="de">ANLEITUNG ZUR VERIFIZIERUNG</span><span class="en">VERIFICATION GUIDE</span></h3>
       <p class="loc-sub"><span class="de">So verifizierst du deine Wellpass- oder Hansefit-Mitgliedschaft bei Hidden.</span><span class="en">This is how you verify your Wellpass or Hansefit membership with Hidden.</span></p>
       <div class="agg-grid">
-        <div class="agg-card"><img src="../assets/img/e75cdaead74e5430.png" alt="EGYM Wellpass" style="height:34px;width:auto;object-fit:contain"><h5>EGYM Wellpass</h5><p><span class="de">Hier findest du immer die aktuelle Anleitung zur Nutzung von Hidden mit einer Wellpass Mitgliedschaft</span><span class="en">Here you\'ll always find the current guide for using Hidden with a Wellpass membership</span></p><a class="btn btn-primary" href="../assets/docs/hidden-nutzung-wellpass.pdf" target="_blank" rel="noopener"><span class="de">ZUR ANLEITUNG</span><span class="en">VIEW GUIDE</span></a></div>
-        <div class="agg-card"><img src="../assets/img/edfd622635dd89d5.png" alt="Hansefit Logo" style="height:34px;width:auto;object-fit:contain"><h5>Hansefit</h5><p><span class="de">Über den folgenden Link stellen wir dir eine Übersicht bereit, wie du mit Hansefit Hidden nutzen kannst.</span><span class="en">The following link gives you an overview of how to use Hidden with Hansefit.</span></p><a class="btn btn-primary" href="../assets/docs/hidden-nutzung-hansefit.pdf" target="_blank" rel="noopener"><span class="de">ZUR ANLEITUNG</span><span class="en">VIEW GUIDE</span></a></div>
+        <div class="agg-card"><img src="../assets/img/e75cdaead74e5430.png" alt="EGYM Wellpass" style="height:46px;width:auto;object-fit:contain;margin-bottom:.7rem"><h5>EGYM Wellpass</h5><p><span class="de">Hier findest du immer die aktuelle Anleitung zur Nutzung von Hidden mit einer Wellpass Mitgliedschaft</span><span class="en">Here you'll always find the current guide for using Hidden with a Wellpass membership</span></p><a class="btn btn-primary" href="../assets/docs/hidden-nutzung-wellpass.pdf" target="_blank" rel="noopener"><span class="de">ZUR ANLEITUNG</span><span class="en">VIEW GUIDE</span></a></div>
+        <div class="agg-card"><img src="../assets/img/edfd622635dd89d5.png" alt="Hansefit Logo" style="height:46px;width:auto;object-fit:contain;margin-bottom:.7rem"><h5>Hansefit</h5><p><span class="de">Über den folgenden Link stellen wir dir eine Übersicht bereit, wie du mit Hansefit Hidden nutzen kannst.</span><span class="en">The following link gives you an overview of how to use Hidden with Hansefit.</span></p><a class="btn btn-primary" href="../assets/docs/hidden-nutzung-hansefit.pdf" target="_blank" rel="noopener"><span class="de">ZUR ANLEITUNG</span><span class="en">VIEW GUIDE</span></a></div>
       </div>
 
       <h3 class="loc-h" style="margin-top:4.2rem"><span class="de">HÄUFIG GESTELLTE FRAGEN</span><span class="en">FREQUENTLY ASKED QUESTIONS</span></h3>
