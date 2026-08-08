@@ -314,6 +314,12 @@ footer a:hover{color:var(--mint)}
 .hero-section-relative .wrap{position:relative}
 
 .sem-map-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2.6rem}
+
+.sem-gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:150px;gap:.9rem;margin-top:2.6rem}
+.sem-gallery img{width:100%;height:100%;object-fit:cover;border-radius:5px;box-shadow:var(--shadow);display:block}
+.sem-gallery a:nth-child(1){grid-column:span 2;grid-row:span 2}
+@media(max-width:640px){.sem-gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:120px}.sem-gallery a:nth-child(1){grid-column:span 2;grid-row:span 1}}
+
 .sem-map-card{background:#fff;border-radius:5px;box-shadow:var(--shadow);overflow:hidden}
 .sem-map-card iframe{width:100%;height:180px;display:block;border:0}
 .sem-map-card-body{padding:1.2rem 1.3rem}
@@ -461,7 +467,18 @@ footer a:hover{color:var(--mint)}
         </div>
       </div>
 
-      <h3 class="loc-h" style="margin-top:4.2rem"><span class="de">HÄUFIG GESTELLTE FRAGEN</span><span class="en">FREQUENTLY ASKED QUESTIONS</span><span class="en">FREQUENTLY ASKED QUESTIONS</span></h3>
+      <h3 class="loc-h" style="margin-top:4.2rem"><span class="de">EIN EINDRUCK VON DEN ANGEBOTEN</span><span class="en">A GLIMPSE OF THE AMENITIES</span></h3>
+      <p class="loc-sub"><span class="de">Gyms, Saunas und Pools – Impressionen aus den Seminaris Hotels.</span><span class="en">Gyms, saunas and pools – impressions from the Seminaris hotels.</span></p>
+      <div class="sem-gallery">
+        <a href="../assets/img/sem-gallery-pool.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-pool.jpg" alt="Pool" loading="lazy"></a>
+        <a href="../assets/img/sem-gallery-sauna.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-sauna.jpg" alt="Sauna" loading="lazy"></a>
+        <a href="../assets/img/sem-gallery-fitness.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-fitness.jpg" alt="Fitnessraum" loading="lazy"></a>
+        <a href="../assets/img/sem-gallery-bike.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-bike.jpg" alt="Trainingsgerät" loading="lazy"></a>
+        <a href="../assets/img/sem-gallery-spa.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-spa.jpg" alt="Spa-Bereich" loading="lazy"></a>
+        <a href="../assets/img/sem-gallery-bath.jpg" target="_blank" rel="noopener"><img src="../assets/img/sem-gallery-bath.jpg" alt="Wellness-Bereich" loading="lazy"></a>
+      </div>
+
+      <h3 class="loc-h" style="margin-top:4.2rem"><span class="de">HÄUFIG GESTELLTE FRAGEN</span><span class="en">FREQUENTLY ASKED QUESTIONS</span></h3>
       <p class="loc-sub">Got questions? We´ve got answers</p>
       <div class="faq" style="margin-top:1.6rem">
         <details>
