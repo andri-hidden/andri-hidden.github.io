@@ -246,6 +246,8 @@ footer a:hover{color:var(--mint)}
 .team-line{margin-top:2.8rem;font-family:'Baloo 2',cursive;font-weight:700;font-size:1.2rem;color:var(--navy)}
 .loc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.5rem;margin-top:3.8rem}
 .loc-card{background:#fff;border-radius:5px;box-shadow:var(--shadow);padding:1.9rem 1.7rem;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:.4rem;transition:transform .15s ease}
+.loc-card.partner{background:var(--soft);border:1.5px dashed rgba(31,58,92,.32);box-shadow:none}
+.loc-card .loc-tag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3F7D8A;margin-bottom:.1rem}
 .loc-card:hover{transform:translateY(-4px)}
 .loc-card .loc-icon{width:52px;height:52px;margin-bottom:.7rem}
 .loc-card .loc-city{font-size:.74rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#3F7D8A}
@@ -360,6 +362,18 @@ footer a:hover{color:var(--mint)}
           <span class="loc-link"><span class="de">Zur Standortseite →</span><span class="en">View location →</span></span>
         </a>
       </div>
+
+      <h3 style="margin-top:3.4rem;font-family:'Baloo 2',cursive;font-weight:800;font-size:1.6rem;color:var(--navy)"><span class="de">Hotel Gyms und Saunas</span><span class="en">Hotel gyms and saunas</span></h3>
+      <div class="loc-grid" style="margin-top:1.4rem">
+        <a class="loc-card partner" href="/seminaris/">
+          <span class="loc-tag"><span class="de">Kooperationspartner</span><span class="en">Partner cooperation</span></span>
+          <svg class="loc-icon" viewBox="0 0 24 24" fill="none" stroke="#1F3A5C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg>
+          <span class="loc-city"><span class="de">6 Hotels deutschlandweit</span><span class="en">6 hotels across Germany</span></span>
+          <h3>Seminaris x Hidden</h3>
+          <span class="loc-link"><span class="de">Zur Übersicht →</span><span class="en">View overview →</span></span>
+        </a>
+      </div>
+
       <div class="cta-band">
         <h3><span class="de">Sie wollen mit uns einen öffentlichen Standort eröffnen?</span><span class="en">Want to open a public location with us?</span></h3>
         <a class="btn btn-primary" href="/#kontakt"><span class="de">Kontakt aufnehmen</span><span class="en">Get in touch</span></a>
